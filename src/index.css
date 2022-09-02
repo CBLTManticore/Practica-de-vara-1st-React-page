@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 550px;
+    height: 90px;
+    background-color: #21222A;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    color: aqua;
+}
+
+.title {
+    margin-left: auto;
+    color: #FFFFFF;
+}
+
+.bcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 460px;
+    padding: 30px 20px;
+    background-image: url(./half.png);
+    background-repeat: no-repeat;
+    background-position: right 60%;
+    background-color: #282D35;
+    color:#FFFFFF;
+}
+
+::marker {
+    color: #00FFFF;
+}
